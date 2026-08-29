@@ -1,0 +1,1 @@
+// Interactions are embedded in index.html for easy deployment.

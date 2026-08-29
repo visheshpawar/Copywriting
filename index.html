@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Vishesh — Copywriter portfolio. Conversion-focused copy for SaaS, technology and digital brands.">
+<title>Vishesh — Copywriter</title>
+<style>
+:root{--bg:#0b0c10;--panel:#12141a;--text:#f5f5f2;--muted:#a8abb5;--line:#272a33;--accent:#d8ff55;--accent2:#9ff0d0;--max:1120px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(var(--max),92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(11,12,16,.82);bacśkdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.07)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:-.04em;font-size:1.25rem}.logo span{color:var(--accent)}
+.links{display:flex;gap:28px;color:#c9cbd1;font-size:.92rem}.links a:hover{color:var(--accent)}
+.menu{display:none;background:none;border:0;color:white;font-size:1.5rem}
+.hero{padding:110px 0 95px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:var(--accent);opacity:.07;filter:blur(90px);right:-180px;top:-160px}
+.kicker{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;margin-bottom:20px}
+h1{font-size:clamp(3.5rem,8vw,7.5rem);line-height:.92;letter-spacing:-.07em;max-width:900px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{max-width:650px;color:var(--muted);font-size:1.15rem;margin:30px 0}
+.btns{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;padding:13px 20px;border-radius:999px;font-weight:800;border:1px solid var(--line);transition:.2s}.primary{background:var(--accent);color:#10120b;border-color:var(--accent)}.btn:hover{transform:translateY(-2px)}
+section{padding:92px 0;border-top:1px solid var(--line)}.sectionhead{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:40px}
+h2{font-size:clamp(2rem,4vw,3.5rem);letter-spacing:-.05em;line-height:1}
+.sectionhead p{color:var(--muted);max-width:470px}
+.about{display:grid;grid-template-columns:1fr 1.5fr;gap:70px}.aboutbig{font-size:clamp(1.7rem,3vw,2.6rem);line-height:1.2;letter-spacing:-.035em}.abouttext{color:var(--muted);font-size:1.05rem}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service,.card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:28px}.service h3{margin:16px 0 8px;font-size:1.2rem}.service p,.card p{color:var(--muted)}
+.icon{font-size:1.5rem;color:var(--accent)}
+.portfolio{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{min-height:300px;display:flex;flex-direction:column;justify-content:space-between;transition:.25s}.card:hover{transform:translateY(-5px);border-color:#444956}.tag{font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);font-weight:800}.card h3{font-size:1.75rem;letter-spacing:-.04em;margin:12px 0}.sample{margin-top:24px;padding:20px;border-radius:15px;background:#0d0f14;border:1px solid var(--line);color:#ddd}.sample strong{display:block;color:white;font-size:1.05rem;margin-bottom:8px}.view{margin-top:18px;color:var(--accent);font-weight:800;font-size:.9rem}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{padding:24px 0;border-top:2px solid var(--accent)}.num{color:var(--accent);font-weight:900}.step h3{margin:10px 0 5px}.step p{color:var(--muted);font-size:.95rem}
+.cta{background:var(--accent);color:#0c0f09;border-radius:28px;padding:60px;display:flex;justify-content:space-between;align-items:center;gap:30px}.cta h2{max-width:650px}.cta .btn{border-color:#0c0f09;background:#0c0f09;color:white}
+footer{padding:35px 0;color:#777b85;display:flex;justify-content:space-between;gap:20px;font-size:.9rem}
+.reveal{opacity:0;transform:translateY(18px);transition:.7s}.reveal.show{opacity:1;transform:none}
+@media(max-width:800px){.links{display:none}.menu{display:block}.links.open{display:flex;position:absolute;left:0;right:0;top:72px;background:var(--bg);padding:20px 4%;flex-direction:column;gap:16px;border-bottom:1px solid var(--line)}.hero{padding:80px 0}.about,.services,.portfolio,.process{grid-template-columns:1fr}.sectionhead{display:block}.sectionhead p{margin-top:15px}.cta{padding:38px 26px;display:block}.cta .btn{margin-top:25px}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<nav><div class="container navin"><a class="logo" href="#">Vishesh<span>.</span></a><button class="menu" aria-label="Open menu">☰</button><div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#process">Process</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero"><div class="container">
+<div class="kicker">Copywriter · SaaS · Technology</div>
+<h1>Words that make<br><em>people act.</em></h1>
+<p>I write clear, persuasive copy for technology and digital brands — from ads and landing pages to emails and product messaging.</p>
+<div class="btns"><a class="btn primary" href="#work">See my work ↓</a><a class="btn" href="#contact">Let's work together</a></div>
+</div></header>
+
+<section id="about"><div class="container about reveal"><div><div class="kicker">01 / About</div><h2>I turn complicated ideas into copy people understand.</h2></div><div class="abouttext"><p class="aboutbig">Good copy doesn't sound clever. It makes the reader think, <strong>"That's exactly what I need."</strong></p><br><p>I focus on clarity, positioning and conversion. My engineering background helps me understand technical products quickly and translate features into benefits that actually matter to customers.</p></div></div></section>
+
+<section id="services"><div class="container reveal"><div class="sectionhead"><div><div class="kicker">02 / Services</div><h2>What I write</h2></div><p>Focused copy for brands that need to explain, persuade and convert.</p></div>
+<div class="services">
+<div class="service"><div class="icon">↗</div><h3>Website & Landing Pages</h3><p>Headlines, value propositions, sections and CTAs designed around the customer journey.</p></div>
+<div class="service"><div class="icon">✉</div><h3>Email & Ad Copy</h3><p>Promotional emails and ads built around strong hooks, benefits and clear action.</p></div>
+<div class="service"><div class="icon">✦</div><h3>Product & Social Copy</h3><p>Product descriptions, social campaigns and short-form messaging that earns attention.</p></div>
+</div></div></section>
+
+<section id="work"><div class="container reveal"><div class="sectionhead"><div><div class="kicker">03 / Selected work</div><h2>Six pieces. Six formats.</h2></div><p>Spec samples created to demonstrate range. Replace these with client work as your portfolio grows.</p></div>
+<div class="portfolio">
+<article class="card"><div><span class="tag">SaaS · Ad Copy</span><h3>Stop chasing updates. Start getting work done.</h3><p>A productivity-tool ad built around a familiar pain point and a direct promise.</p><div class="sample"><strong>Your team shouldn't spend half the day asking, "What's the status?"</strong>With FlowTask, everyone knows what needs to be done, who's responsible, and what's coming next.</div></div><div class="view">Read sample →</div></article>
+<article class="card"><div><span class="tag">Cybersecurity · Ad</span><h3>Your employees aren't your weakest link. Your security gaps are.</h3><p>A problem-led B2B ad that creates urgency without fearmongering.</p><div class="sample"><strong>One compromised password can expose an entire organization.</strong>Secure employee access, monitor suspicious activity and protect sensitive data with SecureCore.</div></div><div class="view">Read sample →</div></article>
+<article class="card"><div><span class="tag">AI · Email</span><h3>Write less. Get more done.</h3><p>A promotional email focused on a simple, relatable productivity benefit.</p><div class="sample"><strong>How much time does your team spend writing repetitive emails, reports and summaries?</strong>What if AI could handle the first draft for you?</div></div><div class="view">Read sample →</div></article>
+<article class="card"><div><span class="tag">Cloud · Landing Page</span><h3>Your data shouldn't disappear with your laptop.</h3><p>A landing-page concept that turns a technical backup feature into a human benefit.</p><div class="sample"><strong>Automatically back up your business files to the cloud.</strong>Secure storage. Easy recovery. No complicated setup.</div></div><div class="view">Read sample →</div></article>
+<article class="card"><div><span class="tag">E-commerce · Product</span><h3>Your music. Without the distractions.</h3><p>Product copy for wireless earbuds, balancing emotion, features and use cases.</p><div class="sample"><strong>Meet AeroBuds Pro.</strong>Immersive audio, clear calls and all-day comfort in a compact design built for work, workouts and travel.</div></div><div class="view">Read sample →</div></article>
+<article class="card"><div><span class="tag">Fitness · Social</span><h3>You don't need another Monday motivation speech.</h3><p>A social ad that challenges the reader, then offers a practical solution.</p><div class="sample"><strong>You need a plan you can actually follow.</strong>FitTrack creates personalized workouts based on your goals, schedule and fitness level.</div></div><div class="view">Read sample →</div></article>
+</div></div></section>
+
+<section id="process"><div class="container reveal"><div class="sectionhead"><div><div class="kicker">04 / Process</div><h2>Simple by design.</h2></div><p>No mysterious creative process. Just clear thinking, good questions and sharper words.</p></div>
+<div class="process"><div class="step"><div class="num">01</div><h3>Understand</h3><p>Product, audience, offer and goal.</p></div><div class="step"><div class="num">02</div><h3>Research</h3><p>Customer language, competitors and positioning.</p></div><div class="step"><div class="num">03</div><h3>Write</h3><p>Hooks, structure, benefits and CTA.</p></div><div class="step"><div class="num">04</div><h3>Refine</h3><p>Cut the fluff. Strengthen the message.</p></div></div></div></section>
+
+<section id="contact"><div class="container reveal"><div class="cta"><div><div class="kicker">05 / Contact</div><h2>Have a product worth talking about?</h2><p>Let's turn it into copy worth reading.</p></div><a class="btn" href="mailto:1@visheshpawar.in">Start a conversation →</a></div></div></section>
+
+<footer class="container"><span>© 2026 Vishesh. All rights reserved.</span><span>Copywriting portfolio · SaaS · Technology</span></footer>
+
+<script>
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');
+menu.addEventListener('click',()=>links.classList.toggle('open'));
+document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));
+</script>
+</body>
+</html>
